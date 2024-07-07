@@ -1,51 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="script.js"></script>
 </head>
-<body>
-  <header>
-    <h1>Welcome to My Website</h1>
-  </header>
 
-  <body>
-    <main>
-      <img src="https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/cartman.svg" alt="Welcome Image">
-      <p>Welcome to my website! This is just a basic setup, but you can build upon it to create a fantastic website.</p>
-    </main>
-  </body>
+<body class="w3-theme-l1">
+  <header class="w3-theme-d4">
+    <h1>Welcome to <span> Andrea Montalbani</span> portfolio Website</h1>
+  </header>
 
   <div class="tabs">
     <ul class="tabs__nav">
-      <li class="tabs__nav-item active">
-        <button class="tabs__nav-button">Tab 1</button>
+      <li class="tabs__nav-item">
+        <button tab-index=1 class="active w3-btn tab-btn">Literature mapped</button>
       </li>
       <li class="tabs__nav-item">
-        <button class="tabs__nav-button">Tab 2</button>
+        <button tab-index=2 class="w3-btn tab-btn">Amount of love for Maya</button>
       </li>
       <li class="tabs__nav-item">
-        <button class="tabs__nav-button">Tab 3</button>
+        <button tab-index=3 class="w3-btn tab-btn">Dishes washed</button>
+      </li>
+      <li class="tabs__nav-item">
+        <button tab-index=4 class="w3-btn tab-btn">Dishes washed</button>
       </li>
     </ul>
     <div class="tabs__content">
-      <div class="tabs__content-panel active">
-        <p>This is the content for Tab 1.</p>
+      <div tab-index=1 class="tabs__content-panel w3-theme-dark active">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum cursus nisl. Quisque finibus, justo sed rutrum hendrerit, ante mauris euismod lectus, ac aliquam magna sem sit amet nunc. Proin sed convallis tellus, non volutpat odio. Sed in tincidunt lorem. In mattis eu nibh et eleifend. Ut id aliquet orci. Vestibulum libero tortor, mollis ac nisl ut, fermentum placerat urna.</p>
       </div>
-      <div class="tabs__content-panel">
-        <p>This is the content for Tab 2.</p>
+      <div tab-index=2 class="tabs__content-panel w3-theme-dark">
+        <h1 style="color:red;font-weight: bold;">A fucking lot</h1>
       </div>
-      <div class="tabs__content-panel">
-        <p>This is the content for Tab 3.</p>
+      <div tab-index=3 class="tabs__content-panel w3-theme-dark">
+        <p>Curabitur bibendum fringilla magna, a blandit diam vehicula id. Etiam volutpat nunc eget mi pellentesque molestie. Aliquam vitae odio sit amet velit pretium finibus eu vitae arcu. Phasellus facilisis enim quis justo tincidunt dapibus. Nulla purus nunc, dapibus eget eros ut, sagittis venenatis turpis. Quisque cursus maximus leo id ultricies. Phasellus porttitor metus consequat magna scelerisque, et posuere est faucibus. Cras placerat, velit vitae mollis mattis, massa nisl vestibulum mi, vehicula dapibus tortor erat vitae nunc. Nullam et tincidunt augue.</p>
+      </div>
+      <div tab-index=4 class="tabs__content-panel w3-theme-dark">
+        <p class="random" random-seed="1"></p>
       </div>
     </div>
   </div>
-  
 
-  <footer>
+
+  <footer class="w3-theme-d4">
     <p>&copy; Fake Company Name 2024 (Change this with your own information)</p>
+    <div class="contact-row">
+      <h5>Contacts:</h5>
+      <div class="contact-row">
+        <p class="material-symbols-outlined">call</p>
+        <a href="tel:+393516095111">+39 3516095111 </a>
+      </div>
+      <div class="contact-row">
+        <img class="contact-row"
+          src="https://content.linkedin.com/content/dam/me/brand/en-us/brand-home/logos/In-Blue-Logo.png.original.png">
+        <p>Linkedin:</p>
+      </div>
+      <div class="contact-row">
+        <p class="material-symbols-outlined">mail</p>
+        <a href="mailto:andreamontalbaniwork@gmail.com"> andreamontalbaniwork@gmail.com </a>
+      </div>
+    </div>
   </footer>
 </body>
+
 </html>
