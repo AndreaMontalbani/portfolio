@@ -1,0 +1,19 @@
+footer {
+	height: 5%;
+}
+
+
+div.contact-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.contact-row>* {
+	margin: 0.2em;
+}
+
+img.contact-row {
+	margin-left: 0.5em;
+	height: 20px;
+	width: 20px;
+}

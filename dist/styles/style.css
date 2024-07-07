@@ -1,0 +1,14 @@
+@import url('https://www.w3schools.com/w3css/4/w3.css');
+@import url('https://www.w3schools.com/lib/w3-theme-blue-grey.css');
+@import './tab.css';
+@import './footer.css';
+@import './header.css';
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined);
+
+h1>span {
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}

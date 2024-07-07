@@ -1,0 +1,29 @@
+.tabs__nav {
+	display: flex;
+	flex-direction: row;
+	flex-basis: content;
+}
+
+.tabs__content-panel {
+	display: none;
+}
+
+.tab-btn.active {
+	border-bottom: solid black 3px;
+}
+
+.tabs__content-panel.active {
+	display: block;
+	height: 18em;
+}
+
+
+.tab-btn {
+	min-width: 10em;
+	font-weight: bold;
+}
+
+div.tabs {
+	overflow: auto;
+	height: 80%;
+}
